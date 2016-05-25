@@ -19,7 +19,7 @@ body{
     background-color: #634a30;
     margin-top: -4px;
     height: 400px;
-    padding-top: 80px;
+    padding-top: 50px;
 }
 
 .full{
@@ -132,7 +132,35 @@ body > div > div:nth-child(2) > div > ul > li:last-child{
     margin-top: 22%;
     margin-left: 47.5%;
 }
+body > div:nth-child(3) > div > ul > li{
+    display: inline-block;
+}
+body > div:nth-child(3) > div > ul > li:first-child{
+    width: 65%;
+}
+body > div:nth-child(3) > div > ul > li:first-child > ul > li:first-child{
+    color: #29a3a3;
+    font-size: 12px;
+}
+body > div:nth-child(3) > div > ul > li:first-child > ul > li:nth-child(2){
+    color: #00cccc;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
 
+body > div:nth-child(3) > div > ul > li:first-child > ul > li:nth-child(3){
+    color: white;
+    font-size: 11px;
+    margin-bottom: 20px;
+}
+body > div:nth-child(3) > div > ul > li:first-child > ul > li:last-child{
+    color: gray;
+    font-size: 11px;
+}
+body > div:nth-child(3) > div > ul > li:last-child{
+    width: 34%;
+    background-color: blue;
+}
 
 
 .border{
