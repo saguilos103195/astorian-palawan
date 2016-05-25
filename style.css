@@ -18,7 +18,7 @@ body{
 .brown{
     background-color: #634a30;
     margin-top: -4px;
-    height: 400px;
+    height: 300px;
     padding-top: 50px;
 }
 
@@ -136,7 +136,7 @@ body > div:nth-child(3) > div > ul > li{
     display: inline-block;
 }
 body > div:nth-child(3) > div > ul > li:first-child{
-    width: 65%;
+    width: 60%;
 }
 body > div:nth-child(3) > div > ul > li:first-child > ul > li:first-child{
     color: #29a3a3;
@@ -150,17 +150,38 @@ body > div:nth-child(3) > div > ul > li:first-child > ul > li:nth-child(2){
 
 body > div:nth-child(3) > div > ul > li:first-child > ul > li:nth-child(3){
     color: white;
-    font-size: 11px;
+    font-size: 12px;
     margin-bottom: 20px;
 }
 body > div:nth-child(3) > div > ul > li:first-child > ul > li:last-child{
     color: gray;
-    font-size: 11px;
+    font-size: 12px;
 }
 body > div:nth-child(3) > div > ul > li:last-child{
-    width: 34%;
-    background-color: blue;
+    width: 33%;
+    margin-left: 50px;
 }
+
+body > div:nth-child(3) > div > ul > li:last-child > ul > li:nth-child(-n+3) > input{
+    margin-bottom: 10px;
+    background-color: #ccc;
+    border: none;
+    width: 280px;
+    height: 45px;
+    padding-left: 10px;
+    font-size: 12px;
+}
+body > div:nth-child(3) > div > ul > li:last-child > ul > li:last-child > input{
+    margin-bottom: 10px;
+    background-color: #00cccc;
+    border: none;
+    width: 290px;
+    height: 45px;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+
 
 
 .border{
