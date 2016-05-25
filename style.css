@@ -61,8 +61,9 @@ body{
     top: 220px;
     position: absolute;
 }
-.pos-absolute{
-    position: absolute;
+.pos-rel{
+    position: relative;
+    height: 540px;
 }
 .center{
     text-align: center;
@@ -181,7 +182,20 @@ body > div:nth-child(3) > div > ul > li:last-child > ul > li:last-child > input{
     text-align: center;
     color: white;
 }
+body > div:nth-child(4) div > img:first-child{
+    position: absolute;
+    left: -805px;
+}
 
+body > div:nth-child(4) > div > img:nth-child(3){
+    position: absolute;
+    left: 155px;
+}
+body > div:nth-child(4) > div > img:nth-child(2){
+    position: absolute;
+    left: 1115px;
+
+}
 
 
 .border{
