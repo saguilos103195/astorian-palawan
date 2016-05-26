@@ -47,9 +47,9 @@ body{
 .overlay{
     width: auto;
     height:auto;
-    min-height: 106%;
+    min-height: 113.5%;
     min-width: 100%;
-    max-height: 106%;
+    max-height: 113.5%;
     max-width: 100%;
     position: absolute;
     z-index: 1;
@@ -71,7 +71,7 @@ body{
 .feed{
     width: 100%;
     background-color: #eee;
-    height: 800px;
+    height: 1000px;
 }
 .relative{
     position: relative;
@@ -190,6 +190,10 @@ body > div:nth-child(3) > div > ul > li:last-child > ul > li:nth-child(-n+3) > i
     padding-left: 10px;
     font-size: 12px;
 }
+body > div:nth-child(3) > div > ul > li:last-child > ul > li:nth-child(-n+3) > i{
+    margin-left: -25px;
+    color: gray;
+}
 body > div:nth-child(3) > div > ul > li:last-child > ul > li:last-child > input{
     margin-bottom: 10px;
     background-color: #00cccc;
@@ -275,10 +279,27 @@ body > div:nth-child(6) > div > ul > li:last-child{
     color: white;
 }
 
+body > div:nth-child(6) > div > ul > li > i:first-child{
+    margin-right: 10px;
+}
+body > div:nth-child(6) > div > ul > li > i:nth-child(2){
+    margin-right: 10px;
+}
+body > div:nth-child(6) > div > ul > li > i:nth-child(3){
+    margin-right: 10px;
+}
+body > div:nth-child(6) > div > ul > li > i:nth-child(4){
+    margin-right: 10px;
+}
+body > div:nth-child(6) > div > ul > li > i:last-child{
+    margin-right: 10px;
+}
+
 body > div:nth-child(6) > div > div{
     width: 47%;
     display: inline-block;
     margin: 10px;
+    vertical-align: top;
 }
 
 body > div:nth-child(6) > div > div > ul > li{
@@ -287,15 +308,21 @@ body > div:nth-child(6) > div > div > ul > li{
     margin-bottom: 30px;
     padding: 15px;
 }
-
-body > div:nth-child(6) > div > div > ul > li > h5{
+body > div:nth-child(6) > div > div > ul > li > div{
+    width: 85%;
+    margin-left: 10px;
+}
+body > div:nth-child(6) > div > div > ul > li > img{
+    border-radius: 50%;
+}
+body > div:nth-child(6) > div > div > ul > li > div > h5{
     color: black;
 }
-body > div:nth-child(6) > div > div > ul > li > p{
+body > div:nth-child(6) > div > div > ul > li > div > p{
     font-size: 12px;
     margin-top: 5px;
 }
-body > div:nth-child(6) > div > div > ul > li > p:last-child{
+body > div:nth-child(6) > div > div > ul > li > div > p:last-child{
     color: #56bbff;
 }
 body > div:nth-child(7){
@@ -352,13 +379,15 @@ body > div:nth-child(8) > div > ul > li:nth-child(2) > ul > li{
 body > div:nth-child(8) > div > ul > li:nth-child(3) > ul > li{
     display: inline-block;
     width: 28px;
-    height: 28px;
+    height: 23px;
     margin-left: 3px;
     margin-right: 3px;
     border-radius: 50%;
     border-width: 2px;
+    padding-top: 5px;
     border-color: gray;
     border-style: solid;
+    margin-bottom: 10px;
 }
 
 .border{
