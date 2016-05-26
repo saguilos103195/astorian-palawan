@@ -69,6 +69,17 @@ body{
     text-align: center;
 }
 
+.feed{
+    width: 100%;
+    background-color: #eee;
+    height: 800px;
+}
+.relative{
+    position: relative;
+}
+.autoheight{
+    height: auto;
+}
 
 header{
     top: 50px;
@@ -184,19 +195,67 @@ body > div:nth-child(3) > div > ul > li:last-child > ul > li:last-child > input{
 }
 body > div:nth-child(4) div > img:first-child{
     position: absolute;
-    left: -805px;
+    left: -797px;
 }
 
 body > div:nth-child(4) > div > img:nth-child(3){
     position: absolute;
-    left: 155px;
+    left: 162px;
 }
 body > div:nth-child(4) > div > img:nth-child(2){
     position: absolute;
     left: 1115px;
 
 }
+body > div:nth-child(5) > img:nth-child(n+0){
+    width: 25%;
+    position: absolute;
+}
+body > div:nth-child(5) > img:first-child{
+    left:0%;
+    position: absolute;
+}
+body > div:nth-child(5) > img:nth-child(2){
+    left:25%;
+}
+body > div:nth-child(5) > img:nth-child(3){
+    left:50%;
+}
 
+body > div:nth-child(5){
+    background-color: #634a30;
+    position: relative;
+    height: 180px;
+
+}
+body > div:nth-child(6) > div > h5{
+    margin-top: 65px;
+}
+body > div:nth-child(6) > div > ul > li:nth-child(n+0){
+    width: 20%;
+    margin-left: -2.5px;
+    margin-right: -2.5px;
+    display: inline-block;
+    height: 30px;
+    padding-top: 10px;
+    text-align: center;
+}
+body > div:nth-child(6) > div > ul > li:first-child{
+    background-color: #3a3a3a;
+    color: white;
+}
+body > div:nth-child(6) > div > ul > li:nth-child(2){
+    background-color: #5656ff;
+}
+body > div:nth-child(6) > div > ul > li:nth-child(3){
+    background-color: #56bbff;
+}
+body > div:nth-child(6) > div > ul > li:nth-child(4){
+    background-color: #ed2929;
+}
+body > div:nth-child(6) > div > ul > li:last-child{
+    background-color: #757684;
+}
 
 .border{
     border: 1px red solid;
