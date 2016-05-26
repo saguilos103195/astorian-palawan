@@ -21,7 +21,6 @@ body{
     height: 300px;
     padding-top: 50px;
 }
-
 .full{
     width: 100%;
 }
@@ -77,13 +76,18 @@ body{
 .relative{
     position: relative;
 }
-.autoheight{
-    height: auto;
+.absolute{
+    position: absolute;
 }
 
-.blue{
-    color: #56bbff;
+
+
+.text-hover{
+    position: absolute;
+    background-color: red;
+    float: left;
 }
+
 header{
     top: 50px;
     position: absolute;
@@ -291,13 +295,38 @@ body > div:nth-child(6) > div > div > ul > li > p{
     font-size: 12px;
     margin-top: 5px;
 }
-
-#googleMap{
-  height: 100%;
-  width: 100%;
-  position:absolute;
-  height: 500px;
+body > div:nth-child(6) > div > div > ul > li > p:last-child{
+    color: #56bbff;
 }
+body > div:nth-child(7){
+    position: relative;
+}
+body > div:nth-child(7) > div:nth-child(2){
+    position: absolute;
+    margin-top: -32%;
+    margin-left: 13%;
+}
+
+body > div:nth-child(7) > div:nth-child(2) > p{
+    font-size: 12px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+body > div:nth-child(7) > div:nth-child(2) > h2{
+    margin-top: 5px;
+    color: #29a3a3;
+}
+body > div:nth-child(7) > div:nth-child(2) > h4{
+    color: #00cccc;
+}
+
+body > div:nth-child(8){
+    height: 500px;
+    background-color: #634a30;
+}
+
+
 
 
 .border{
@@ -309,4 +338,10 @@ body > div:nth-child(6) > div > div > ul > li > p{
 .inline-block{
     display: inline-block;
     vertical-align: middle;
+}
+
+#googleMap{
+  height: 100%;
+  width: 100%;
+  height: 500px;
 }
