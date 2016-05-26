@@ -322,12 +322,44 @@ body > div:nth-child(7) > div:nth-child(2) > h4{
 }
 
 body > div:nth-child(8){
-    height: 500px;
+    height: 320px;
     background-color: #634a30;
+    padding-top: 80px;
+
+}
+body > div:nth-child(8) > div > ul > li{
+    text-align: center;
+    color: gray;
+    font-size: 14px;
 }
 
+body > div:nth-child(8) > div > ul > li:first-child{
+    margin-bottom: 20px;
+}
 
+body > div:nth-child(8) > div > ul > li:nth-child(2){
+    margin-bottom: 50px;
+}
 
+body > div:nth-child(8) > div > ul > li:nth-child(2) > ul > li{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+body > div:nth-child(8) > div > ul > li:nth-child(3) > ul > li{
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-radius: 50%;
+    border-width: 2px;
+    border-color: gray;
+    border-style: solid;
+}
 
 .border{
     border: 1px red solid;
