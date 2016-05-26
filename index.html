@@ -6,6 +6,18 @@
     </title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script>
+    function initialize() {
+      var mapProp = {
+        center:new google.maps.LatLng(9.985757, 118.967890),
+        zoom:14,
+        mapTypeId:google.maps.MapTypeId.ROADMAP
+      };
+      var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    }
+    google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -94,7 +106,7 @@
     <img class="" src="resources/slide3.jpg">
 </div>
 <div class="feed clearfix">
-    <div class="border wrapper clearfix">
+    <div class="wrapper clearfix">
         <h5 class="uppercase">checkout our</h5>
         <h2>Social Feeds</h2>
         <ul class="remove-bullet">
@@ -104,8 +116,76 @@
             <li>Gplus</li>
             <li>Instagram</li>
         </ul>
+        <div>
+            <ul class="remove-bullet">
+                <li>
+                    <p class="float-right">a minute ago</p>
+                    <h5 >Smash Galaxy</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p class="blue">Read More</p>
+                </li>
+                <li>
+                    <p class="float-right">a minute ago</p>
+                    <h5 >Smash Galaxy</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p class="blue">Read More</p>
+                </li>
+                <li>
+                    <p class="float-right">a minute ago</p>
+                    <h5 >Smash Galaxy</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p class="blue">Read More</p>
+                </li>
+                <li>
+                    <p class="float-right">a minute ago</p>
+                    <h5 >Smash Galaxy</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p class="blue">Read More</p>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <ul class="remove-bullet">
+                <li>
+                    <p class="float-right">a minute ago</p>
+                    <h5 >Smash Galaxy</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p class="blue">Read More</p>
+                </li>
+                <li>
+                    <p class="float-right">a minute ago</p>
+                    <h5 >Smash Galaxy</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p class="blue">Read More</p>
+                </li>
+                <li>
+                    <p class="float-right">a minute ago</p>
+                    <h5 >Smash Galaxy</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p class="blue">Read More</p>
+                </li>
+                <li>
+                    <p class="float-right">a minute ago</p>
+                    <h5 >Smash Galaxy</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p class="blue">Read More</p>
+                </li>
+            </ul>
+        </div>
     </div>
-</div>
 
+</div>
+<div class="full">
+<div id="googleMap" >
+</div>
+</div>
 </body>
 </html>
